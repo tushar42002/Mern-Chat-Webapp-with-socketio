@@ -38,6 +38,7 @@ const MyChats = ({ fetchAgain }) => {
         }
     };
 
+
     useEffect(() => {
         setLoggedUser(JSON.parse(localStorage.getItem("userInfo")));
         fetchChats();
@@ -108,7 +109,7 @@ const MyChats = ({ fetchAgain }) => {
                             >
 
                                 <Text>
-                                    {!chat.isGroupChat ? getSender(loggedUser, chat.users) : chat.chatName}
+                                    {!chat.isGroupChat && loggedUser ? getSender(loggedUser, chat.users) : chat.chatName}
                                 </Text>
 
                             </Box>
