@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    background-image: url("./magicstudio-art.jpg");
+    background-size: cover;
+    background-position: center;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-slider-thumb:hover{
+    background: #555;
+}
+
