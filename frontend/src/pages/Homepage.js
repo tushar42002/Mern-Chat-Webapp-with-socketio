@@ -30,7 +30,7 @@ const Homepage = () => {
         borderRadius="lg"
         borderWidth="1px"
       >
-        <Text fontSize='4xl' fontFamily="Work sans" color="black" >Talk-A-Tive</Text>
+        <Text fontSize='4xl' fontFamily="Work sans" color="black" >CHAT-WITH</Text>
       </Box>
 
       <Box bg="white" w="100%" p={4} color="black" borderRadius="lg" borderWidth="1px">

@@ -52,7 +52,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             setLoading(true);
             const { data } = await axios.get(`/api/message/${selectedChat._id}`, config);
 
-            console.log(data);
             setMessages(data);
             setLoading(false);
 
@@ -92,7 +91,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
 
                 if(!notification.includes(newMessageRecieved)){
                     setNotification([newMessageRecieved, ...notification]);
-                    console.log(notification.length);
                     setFetchAgain(!fetchAgain);
                 }
               
