@@ -47,9 +47,8 @@ This project is a real-time chat application built using the MERN stack (MongoDB
     npm run build
     
     ```
-8.    then run node server using command
-
-     ```sh
+8.  then run node server using command
+    ```sh
     
     npm start
     
@@ -63,4 +62,4 @@ This project is a real-time chat application built using the MERN stack (MongoDB
 
 
 ## website link 
-#<a href="https://chat-with.onrender.com">https://chat-with.onrender.com</a>
+<a href="https://chat-with.onrender.com">https://chat-with.onrender.com</a>
